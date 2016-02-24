@@ -1,0 +1,30 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Password Reminder Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are the default lines which match reasons
+    | that are given by the password broker for a password update attempt
+    | has failed, such as for an invalid token or invalid new password.
+    |
+    */
+
+    "password" => '密码至少是六位字符并且匹配。',
+
+    "user"     => '找不到该邮箱对应的用户。',
+
+    "token"    => '密码重置令牌无效。',
+
+    "sent"     => '密码重置邮件已发送！',
+
+    "reset"    => '密码重置成功！',
+    "sendreset" => '发送密码重置链接', 
+    "clickreset"=> '点击链接重设密码',   
+    'resetButton' => '重设密码',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+
+];
