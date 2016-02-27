@@ -41,7 +41,7 @@ return [
     'template' => '样版',
     'privacy'  => '隐私权',
     'terms'    => '服务条款',
-    'feedback' => '提供意见',
+    'feedback' => '问题回报',
     'cooperation'=>'合作提案', 
 
     'backend.common.list'=> '设定项目',

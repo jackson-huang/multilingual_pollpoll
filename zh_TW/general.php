@@ -42,7 +42,7 @@ return [
     'template' => '樣版',
     'privacy'  => '隱私權',
     'terms'    => '服務條款',
-    'feedback' => '提供意見',
+    'feedback' => '問題回報',
     'cooperation'=>'合作提案',
 
 
