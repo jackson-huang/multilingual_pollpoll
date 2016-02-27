@@ -40,7 +40,7 @@ return [
     'main.multi1'           => '允許投票者同時選取多個選項!',
     'main.multi2'           => '複選題 ?',
     'main.multi3'           => '複選題',
-    'main.multi4'           => '',
+
     'main.captcha'         => '重要性高的或是較長統計時間的問卷，可以開啟人機驗證(Captcha)，可以防止機器人或是惡意軟體參與投票',
     'main.endtime'          => '設定投票截止時間 ?',
     'main.private1'         => '若此份問卷是使用在公司內部，或是獨立組織內的問卷調查，如果問卷的內容不適合公開或是不適合讓非組織內的成員投票，請勾選。',
@@ -57,23 +57,30 @@ return [
     'main.saveqnr'          => '儲存問卷',
     'main.savedraft'        => '暫存草稿?',
 
-        //multigen
+    //multigen
     'multiqnr'              => '多題型問卷',
     'multifrom'             => '從這裡開始:',
     'multiselnum'           => '選擇問卷包含的題數:',
 
-        //multimain
+    //multimain
     'multiset'              => '完成其它設定',
         
-        //qnrmain
+    //qnrmain
     'qnrendtime'            => '已超過回答問卷截止時間!',
+        //使用範例: [ 請問您最喜歡台灣新氣象App中的哪些功能呢？ ]，'一共有 5 題!'
     'qnrtotal'              => '，一共有',
     'qnrquestions'          => '題!',
+        //使用範例: '開始填問卷，一共有 5 題!', 
     'qnrfill'               => '開始填問卷，一共有',
+
     'qnrenbed'              => '或內嵌問卷到您的網站?',
+    //使用範例: '# 問題 1'  (使用於問卷標題)
     'qnrq'                  => '# 問題',
+    //使用範例: '您必須填入您的' 電子郵件 '才能送出問卷!' 
     'qnrfill1'              => '您必須填入您的',
     'qnrfill2'              => '才能送出問卷!',
+
+    //使用範例: '選擇您的' 性別
     'qnrsel'                => '選擇您的',
     'qnrfemale'             => '女性',
     'qnrmale'               => '男性',
@@ -82,8 +89,10 @@ return [
     'qnren'                 => '( 英文字母大小寫不同 ):',
     'qnrsend'               => '完成送出!',
         //resultmain_part1
+    //使用範例: '這份問卷目前已經有' 8 '次投票.'
     're1'                   => '這份問卷目前已經有',
     're2'                   => '次投票.',
+
     'statgender'            => '性別統計',
     'statage'               => '年齡層統計',
     'statbarchart'          => '票數長條圖統計',
@@ -133,13 +142,19 @@ return [
     'meta.multiq.kw'        => '多題型,問卷,民調',
     'meta.qnrtitle'         => '問卷標題:',
     'meta.qnr'              => '問卷',
+    //使用範例: '這份問卷是關於' [請問您最喜歡台灣新氣象App中的哪些功能呢？] '的結果統計頁面'
     'meta.qnrabout'         => '這份問卷是關於',
-    'meta.result'           => '結果統計頁面',
+    'meta.result'           => '的結果統計頁面',
+
+    //使用範例: '這是' Jackson Huang '的後台管理問卷主頁'
     'meta.backend.main'     => '的後台管理問卷主頁',
     'meta.backend.this'     => '這是',
+    //使用範例: '這是' Jackson Huang '的後台管理問卷主頁,可以編輯,重置答案統計或刪除問卷。'
     'meta.backend.func'     => '的後台管理問卷主頁,可以編輯,重置答案統計或刪除問卷。',
     'meta.backend.func1'    => '編輯問卷,重置問卷,刪除問卷',
+     //使用範例: '問卷' [請問您最喜歡台灣新氣象App中的哪些功能呢？] '的後台編輯頁面'
     'meta.backend.edit'     => '的後台編輯頁面',
+     //使用範例: '問卷' [請問您最喜歡台灣新氣象App中的哪些功能呢？] '的後台結果統計頁面'
     'meta.backend.re'       => '的後台結果統計頁面',
     'meta.backend.mgt'      => '後台管理',
 ];
