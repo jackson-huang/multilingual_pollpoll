@@ -22,8 +22,8 @@ return [
     "sent"     => '密码重置邮件已发送！',
 
     "reset"    => '密码重置成功！',
-    "sendreset" => '发送密码重置链接', 
-    "clickreset"=> '点击链接重设密码',   
+    "sendreset" => '发送密码重置链接',
+    "clickreset"=> '点击链接重设密码',
     'resetButton' => '重设密码',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
