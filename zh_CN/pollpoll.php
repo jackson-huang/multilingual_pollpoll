@@ -33,7 +33,7 @@ return [
     'main.opt'              => '输入选项',
     'main.dupcheck1'        => '不勾选:<br>同一张问卷，使用者可以无限制的重复投票。',
     'main.dupcheck2'        => '一般限制:<br>适合组织、公司、学校内部，重要性为普通程度的问卷。',
-    'main.dupcheck3'        => '严格限制:<br>适合重要性较高的问卷，以使用者的公网IP作为限制条件，一般组织、公司内部若使用intranet架构，对外连线部分使用者有几率会被视为单一公网IP。',
+    'main.dupcheck3'        => '严格限制:<br>适合重要性较高的问卷，以使用者的公网IP作为限制条件，一般组织、公司内部若使用intranet架构，对外连线部分使用者有可能会被视为单一公网IP。',
     'main.dupcheck4'        => '重复投票限制检查？',
     'main.dupcheckgeneral'  => '一般限制',
     'main.dupcheckstrict'   => '严格限制',
@@ -67,7 +67,7 @@ return [
     'multiselnum'           => '选择问卷包含的题数：',
 
     //multimain
-    'multiset'              => '完成其它设置',
+    'multiset'              => '完成其他设置',
 
     //qnrmain
     'qnrendtime'            => '已经超过问卷截至时间！',

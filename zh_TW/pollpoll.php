@@ -17,7 +17,7 @@ return [
     'qnr.status.complete'	=> '完成',
     'qnr.savedraft.success' => '儲存草稿完成，可以從後台問卷管理功能再次開啟編輯喔..',
     
-    'main.remlink'          => '現在可以記下您的問卷鏈結開始使用囉!',
+    'main.remlink'          => '現在可以記下您的問卷連結開始使用囉!',
     'main.qnrqr'            => '問卷網址QR Code:',
     'main.qnrurl'           => '回覆問卷：',
     'main.qnrembed'         => '或內嵌問卷到您的網站?',
@@ -34,11 +34,11 @@ return [
     'main.opt'              => '填入選項',
     'main.dupcheck1'        => '不勾選:<br>同一張問卷，使用者可以無限制的重複投票。',
     'main.dupcheck2'        => '一般限制:<br>適合一般組織、公司、學校內部，重要性為普通程度的問卷。',
-    'main.dupcheck3'        => '嚴格限制:<br>適合重要性較高的問卷，以使用者連線的Public IP做為限制條件，一般組織、公司內部若使用intranet架構,對外連線部份使用者有機率會被視為單一Public IP.',
+    'main.dupcheck3'        => '嚴格限制:<br>適合重要性較高的問卷，以使用者連線的Public IP做為限制條件，一般組織、公司內部若使用intranet架構,對外連線部份使用者有可能會被視為單一Public IP.',
     'main.dupcheck4'        => '重複投票限制檢查 ?',
     'main.dupcheckgeneral'  => '一般限制',
     'main.dupcheckstrict'   => '嚴格限制',
-    'main.sign1'            => '填入你要求投票者需要留下的資訊。 例如: 姓名、識別工號、連絡電話或是電子郵件。結果頁面會顯示投票者留下的資訊。',
+    'main.sign1'            => '填入你要求投票者需要留下的資訊。 例如: 姓名、識別工號、聯絡電話或是電子郵件。結果頁面會顯示投票者留下的資訊。',
     'main.sign2'            => '記名投票 ?',
     'main.sign3'            => 'ex: 姓名、工號、聯絡電話、電子郵件',
     'main.multi1'           => '允許投票者同時選取多個選項!',
@@ -68,7 +68,7 @@ return [
     'multiselnum'           => '選擇問卷包含的題數:',
 
     //multimain
-    'multiset'              => '完成其它設定',
+    'multiset'              => '完成其他設定',
         
     //qnrmain
     'qnrendtime'            => '已超過回答問卷截止時間!',
@@ -89,7 +89,7 @@ return [
     'qnrsel'                => '選擇您的',
     'qnrfemale'             => '女性',
     'qnrmale'               => '男性',
-    'qnrother'              => '其它',
+    'qnrother'              => '其他',
     'qnrtext'               => '輸入圖片內的文字',
     'qnren'                 => '( 英文字母大小寫不同 ):',
     'qnrsend'               => '完成送出!',
