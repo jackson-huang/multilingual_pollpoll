@@ -38,7 +38,7 @@ return [
     'uslogin'  => '使用合作帐号登录',
     'socialErr'=> '使用合作帐号登录发生错误. 原因:',
     'lang'     => '语言',
-    'template' => '样版',
+    'template' => '模版',
     'privacy'  => '隐私权',
     'terms'    => '服务条款',
     'feedback' => '意见反馈',
