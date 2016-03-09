@@ -19,7 +19,7 @@ return [
     'sent' => 'We have e-mailed your password reset link!',      
     'reset' => 'Your password has been reset!',
     "sendreset" => 'Send Password Reset Link',
-    "clickreset"=> 'Click here to reset your password',
+    "clickreset"=> 'Click to reset your password',
     'resetButton' => 'Reset Password',
 
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',

@@ -9,6 +9,27 @@ return [
     |
     |
     */
+    //sys
+    'sys.Contact us'=> 'Contact us',
+    'sys.agree'    => 'By clicking following buttons, you agree to the' ,
+    'sys.Log In'   => 'Log In',
+    'sys.logout'   => 'Logout',
+    'sys.Sign Up'  => 'Sign Up for Free',
+    'sys.fPass'    => 'Forget Your Password ?',
+    'sys.email'    => 'E-Mail',
+    'sys.password' => 'Password',
+    'sys.ConfmPass'=> 'Confirm Password',
+    'sys.name'     => 'Name',
+    'sys.or'       => 'Or',
+    'sys.and'      => 'and',
+    'sys.socialErr'=> 'Social Login Failed. reason:',  
+    'sys.lang'     => 'Language',
+    'sys.template' => 'Template',
+    'sys.privacy'  => 'Privacy',
+    'sys.terms'    => 'Terms', 
+    'sys.feedback' => 'Send feedback',
+     'sys.cooperation'=>'Cooperation Proposal',
+     //pollpoll
     'create'                => '新增問卷',
     'mgt'                   => '問卷管理',
     'duplicate.votes'       => '此份問卷您已經投過票了!',
@@ -28,6 +49,7 @@ return [
     'main.resulturl'        => '問卷結果：',
     'main.resultiframe'     => '或是複製以下 iframe 將統計結果嵌入到您的網站 ?',
     'main.h1'               => '普羅即時問卷',
+    'main.h1.desc'          => '讓您快速製作問卷並回收結果',
     'main.insert'           => '插入圖片或影片必須將檔案儲存於屬於您的系統帳號下，因此需要先登入系統。',
     'main.use'              => '使用圖片或影片 ?',
     'main.writeq'           => '在這裡寫下我想問的問題...',

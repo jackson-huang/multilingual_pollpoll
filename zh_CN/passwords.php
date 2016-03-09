@@ -13,18 +13,13 @@ return [
     |
     */
 
-    "password" => '密码至少是六位字符并且匹配。',
-
-    "user"     => '找不到该邮箱对应的用户。',
-
-    "token"    => '密码重置令牌无效。',
-
-    "sent"     => '密码重置邮件已发送！',
-
-    "reset"    => '密码重置成功！',
-    "sendreset" => '发送密码重置链接',
-    "clickreset"=> '点击链接重设密码',
-    'resetButton' => '重设密码',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'password' => '密码至少是六位字符并且匹配。',
+    'reset'    => '密码重置成功！',
+    'sent'     => '密码重置邮件已发送！',
+    'token'    => '密码重置令牌无效。',
+    'user'     => '找不到该邮箱对应的用户。',
+    'sendreset'=> '重新设定',
+    'clickreset'=>'点击链接重设密码',
+    'resetButton'=>'重设密码',
 
 ];

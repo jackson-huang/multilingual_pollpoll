@@ -13,15 +13,13 @@ return [
     |
     */
 
-    "password" => '密碼至少為六位字符且與密碼確認欄位的輸入相符。',
-    "user"     => '找不到該電子郵件信箱所對應的用戶。',
-    "token"    => '密碼重設碼不正確。',
-    "sent"     => '密碼重置郵件已發送！',
-    "reset"    => '密碼已經成功重置！',
-    "sendreset"=> '發送密碼重置鏈接',
-    "clickreset"=> '點擊鏈接重設密碼',
-    'resetButton' => '重設密碼',
-
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'password' => '密碼至少要有六個字元且與密碼確認欄位一致。',
+    'reset'    => '密碼已成功重設！',
+    'sent'     => '密碼重設郵件已發送！',
+    'token'    => '密碼重設隨機碼 (token) 無效。',
+    'user'     => '找不到該電子郵件信箱對應的使用者。',
+    'sendreset'=> '重新設定',
+    'clickreset'=>'點擊連結重設密碼',
+    'resetButton'=>'重設密碼',
 
 ];
