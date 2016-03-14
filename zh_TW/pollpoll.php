@@ -28,11 +28,12 @@ return [
     'sys.template' => '樣版',
     'sys.privacy'  => '隱私權',
     'sys.terms'    => '服務條款',
-    'sys.feedback' => '問題回報',
+    'sys.feedback' => '提供意見',
     'sys.cooperation'=>'合作提案', 
 
     //pollpoll
     'create'                => '新增問卷',
+    'hotqnr'                => '熱門問卷',
     'mgt'                   => '問卷管理',
     'duplicate.votes'       => '此份問卷您已經投過票了!',
 
