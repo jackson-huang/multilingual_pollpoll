@@ -34,6 +34,7 @@ return [
     //pollpoll
     'create'    => '新建问卷',
     'hotqnr'    => '热门问卷',
+    'votecnt'   => '投票数',    
     'mgt'       => '问卷管理',
     'duplicate.votes'   => '这份问卷您已经投过票了！',
 
