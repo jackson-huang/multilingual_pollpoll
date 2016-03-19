@@ -32,11 +32,15 @@ return [
     'sys.cooperation'=>'合作建议',
 
     //pollpoll
-    'create'    => '新建问卷',
-    'hotqnr'    => '热门问卷',
-    'votecnt'   => '投票数',    
-    'mgt'       => '问卷管理',
-    'duplicate.votes'   => '这份问卷您已经投过票了！',
+    'create'                => '新建问卷',
+    'create1'               => '一分钟建立属于自己的问卷',    
+    'hotqnr'                => '热门问卷',
+    'hotqnr1'               => '查看热门问卷',
+    'reportqnr'             => '举报',
+    'votecnt'               => '投票数', 
+    'viewcnt'               => '点阅数',       
+    'mgt'                   => '问卷管理',
+    'duplicate.votes'       => '这份问卷您已经投过票了！',
 
     'qnr.status.draft'		=> '草稿编辑中',
     'qnr.status.complete'	=> '完成',
@@ -44,7 +48,7 @@ return [
 
     'main.remlink'          => '现在可以记下您的问卷链接并开始使用',
     'main.qnrqr'            => '问卷链接 二维码：',
-    'main.qnrurl'           => '回覆问卷：',
+    'main.qnrurl'           => '回复问卷：',
     'main.qnrembed'         => '内嵌问卷到您的网站？',
     'main.thanks'           => '谢谢您，已经完成问卷！',
     'main.createqnr'        => '自己创建一个问卷？',
@@ -52,7 +56,7 @@ return [
     'main.resultqr'         => '问卷结果统计链接 二维码：',
     'main.resulturl'        => '问卷结果：',
     'main.resultiframe'     => '复制以下iframe将统计结果嵌入到您的网站',
-    'main.h1'               => '普罗快问卷',
+    'main.h1'               => '普罗快捷问卷',
     'main.h1.desc'          => '让您快速制作问卷并回收结果',
     'main.insert'           => '插入图片或视频需要将文件保存到您的账号中，请先登录。',
     'main.use'              => '使用图片或视频',
@@ -74,9 +78,12 @@ return [
     'main.recaptcha'        => '防止刷票',
     'main.captcha'          => '重要性较高或是统计时间较长的问卷，可以开启验证码，防止刷票',
     'main.endtime'          => '设置投票截止时间',
-
+/*
     'main.private1'         => '此问卷仅使用于公司内部或独立组织内的调查，若问卷的内容不宜公开或不宜让非组织内的成员投票，请勾选。',
     'main.private2'         => '将问卷设置为不公开',
+*/
+    'main.private1'         => '隐私型问卷不会列入热门问卷,搜寻引擎也找不到,适用于组织内部。',
+    'main.private2'         => '隐私型问卷',
     'main.info1'            => '如果您要求投票者提供额外的性别、年龄等信息，那么投票结果就会显示这些信息的统计分析。',
     'main.info2'            => '要求投票人提供更多信息',
     'main.infogender'       => '性别',
@@ -110,6 +117,8 @@ return [
     'qnrenbed'              => '或内嵌问卷到您的网站？',
     //使用範例: '# 問題 1'  (使用於問卷標題)
     'qnrq'                  => '# 问题',
+    'qradio'                => '单选',
+    'qcheck'                => '可复选',    
     //使用範例: '您必須输入您的' 電子郵件 '才能送出問卷!'
     'qnrfill1'              => '必须输入您的',
     'qnrfill2'              => '才能生成问卷！',
@@ -121,7 +130,7 @@ return [
     'qnrother'              => '其他',
 //    'qnrtext'               => '输入验证码',
 //    'qnren'                 => '（英文字母区分大小写）:',
-    'qnrsend'               => '完成送出!',
+    'qnrsend'               => '投票并看结果',
         //resultmain_part1
     //使用範例: '這份問卷目前已經有' 8 '次投票.'
     're1'                   => '这份问卷目前已经有',
@@ -173,7 +182,7 @@ return [
     'meta.multiq.title'     => '多题型问卷编辑主页',
     'meta.multiq.desc'      => '创建多题型问卷内容',
     'meta.multiq.kw'        => '多题型，问卷',
-    'meta.qnrtitle'         => '问卷标题：',
+    'meta.qnrtitle'         => '问卷标题',
     'meta.qnr'              => '问卷',
     //使用範例: '這份問卷是關於' [請問您最喜歡台灣新氣象App中的哪些功能呢？] '的結果統計頁面'
     'meta.qnrabout'         => '这份问卷是关于',
